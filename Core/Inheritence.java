@@ -1,7 +1,7 @@
 public class Inheritence {
     public static void main(String[] args) {
         
-        var a = new B(10);
+        A a = new B(10);
 
     }
 }
