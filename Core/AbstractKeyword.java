@@ -33,7 +33,7 @@ abstract class wagonR extends  car {
     
 }
 
-class updatedwagonR extends wagonR
+class updatedwagonR extends wagonR // ~ concreate class
 {
 
     @Override
