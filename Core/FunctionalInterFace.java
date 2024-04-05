@@ -1,7 +1,20 @@
 public class FunctionalInterFace {
     public static void main(String[] args) {
-        B obj  =  new B();
+        A obj  =  new B();
         obj.show();
+
+        A objs = new A()
+        {
+
+            @Override
+            public void show() {
+                // TODO Auto-generated method stub
+               System.out.println("Show");
+            }
+            
+        };
+
+        objs.show();
     }
 }
 
