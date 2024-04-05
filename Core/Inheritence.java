@@ -13,6 +13,7 @@ class A extends Object{
    {
     super();
     System.out.println("Inside A");
+
    }
 
    public A(int  i){

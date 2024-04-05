@@ -19,11 +19,11 @@ public class FunctionalInterFace {
 }
 
 @FunctionalInterface
-interface A{
+interface Aa{
   void show();
 }
 
-class B implements A
+class Ba implements Aa
 {
 
     @Override
